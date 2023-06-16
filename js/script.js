@@ -1,8 +1,8 @@
-// JavaScript naming conventions
+// JavaScript Fat Arrow Functions
 // camelCase
 
 // 1. Function Defination
-function myFunctionA(a1){
+let myFunctionA=(a1)=>{
     // Function Body
     console.log("Hello "+ a1);
 }
@@ -10,7 +10,7 @@ function myFunctionA(a1){
 myFunctionA('everyone...!');
 
 // 1. Function defination
-function myFunctionB(){
+let myFunctionB=()=>{
     // Function Body
     console.log("To Kaise hai aaplog...?");
 }
@@ -25,7 +25,7 @@ let myFunctionC=(a2)=>{
 myFunctionC('deree ke');
 
 // Function Defination
-function myFunctionD(a3){
+let myFunctionD=(a3)=>{
     //function body
     console.log("A for "+ a3);
 }
@@ -33,7 +33,7 @@ function myFunctionD(a3){
 myFunctionD("Apple");
 
 // Function defination
-function myFunctionE(a4){ // "a4" is a formal argument
+let myFunctionE=(a4)=>{ // "a4" is a formal argument
     // function body
     console.log('B for '+ a4);
 }
@@ -49,7 +49,7 @@ let myFunctionF=(a5)=>{
 myFunctionF("Cat");
 
 // function defination
-function myFunctionG(a6){
+var myFunctionG=(a6)=>{
     // function body
     console.log('D for '+ a6);
 }
@@ -57,7 +57,7 @@ function myFunctionG(a6){
 myFunctionG("Dog");
 
 // Function defination
-function myFunctionH(a7){
+let myFunctionH=(a7)=>{
     // function body
     console.log("E for "+ a7);
 }
@@ -65,7 +65,7 @@ function myFunctionH(a7){
 myFunctionH('Eagle');
 
 // function defination
-function myFunctionI(a8){
+var myFunctionI=(a8)=>{
     // function body
     console.log('F for '+ a8);
 }
@@ -73,7 +73,7 @@ function myFunctionI(a8){
 myFunctionI("Fox");
 
 // function defination
-function myFunctionJ(a9){
+let myFunctionJ=(a9)=>{
     // function body
     console.log('G for '+ a9);
 }
@@ -89,7 +89,7 @@ let myFunctionK=(a10)=>{
 myFunctionK('Hen');
 
 // Function defination
-function myFunctionL(a11){
+var myFunctionL=(a11)=>{
     // function body
     console.log('I for '+ a11);
 }
@@ -97,7 +97,7 @@ function myFunctionL(a11){
 myFunctionL("IceCream");
 
 // function defination
-function myFunctionM(a12){
+let myFunctionM=(a12)=>{
     // function body
     console.log('J for '+ a12);
 }
@@ -105,7 +105,7 @@ function myFunctionM(a12){
 myFunctionM("Jocker");
 
 // function defination
-function myFunctionN(a13){
+var myFunctionN=(a13)=>{
     // function body
     console.log(`K for `+ a13);
 }
@@ -113,7 +113,7 @@ function myFunctionN(a13){
 myFunctionN('King');
 
 // Function defination
-function myFunctionO(a14){
+let myFunctionO=(a14)=>{
     // function body
     console.log('L for '+ a14);
 }
@@ -121,7 +121,7 @@ function myFunctionO(a14){
 myFunctionO("Lion");
 
 // function defination
-function myFunctionP(a15){
+var myFunctionP=(a15)=>{
     // function body
     console.log('M for '+ a15);
 }
@@ -137,7 +137,7 @@ let myFunctionQ=(a16)=>{
 myFunctionQ('Nose');
 
 // function defination
-function myFunctionR(a17){
+var myFunctionR=(a17)=>{
     // function body
     console.log('O for '+ a17);
 }
@@ -145,7 +145,7 @@ function myFunctionR(a17){
 myFunctionR("Orange");
 
 // function defination
-function myFunctionS(a18){
+let myFunctionS=(a18)=>{
     // function body
     console.log("P for "+ a18);
 }
@@ -153,7 +153,7 @@ function myFunctionS(a18){
 myFunctionS('Pen');
 
 // function defination 
-function myFunctionT(a19){
+var myFunctionT=(a19)=>{
     // function body
     console.log("Q for "+ a19);
 }
@@ -161,7 +161,7 @@ function myFunctionT(a19){
 myFunctionT('Queen');
 
 // function defination
-function myFunctionU(a20){
+let myFunctionU=(a20)=>{
     // function body
     console.log(`R for `+ a20);
 }
@@ -169,7 +169,7 @@ function myFunctionU(a20){
 myFunctionU('Rose');
 
 // function defination
-function myFunctionV(a21){
+var myFunctionV=(a21)=>{
     // function body
     console.log("S for "+ a21);
 }
@@ -177,7 +177,7 @@ function myFunctionV(a21){
 myFunctionV(`Sun`);
 
 // function defination
-function myFunctionW(a22){
+let myFunctionW=(a22)=>{
     // function body
     console.log('T for '+ a22);
 }
@@ -185,7 +185,7 @@ function myFunctionW(a22){
 myFunctionW(`Tiger`);
 
 // Function defination
-function myFunctionX(a23){
+var myFunctionX=(a23)=>{
     // function body
     console.log("U for "+ a23);
 }
@@ -193,7 +193,7 @@ function myFunctionX(a23){
 myFunctionX('Umberella');
 
 // function defination 
-function myFunctionY(a24){
+var myFunctionY=(a24)=>{
     // function body
     console.log("V for "+ a24);
 }
@@ -201,7 +201,7 @@ function myFunctionY(a24){
 myFunctionY('Van');
 
 // Function defination 
-function myFunctionZ(a25){
+let myFunctionZ=(a25)=>{
     // function body
     console.log("W for "+ a25);
 }
